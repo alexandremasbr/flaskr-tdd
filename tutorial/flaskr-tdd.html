@@ -1,0 +1,2030 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-612da304eac9a72f5d085232387f7f5cd82df6c73120fd97fcf0bdefacbd9b16.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-9e591dcc1f30d2a6ac3773da2f8c05987a4a148bae15713c4be9bb62b6e92b26.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-f4fa6ace91e5f0fabb47e8405e5ecf6a9815949cd3958338f6578e626cd443d7.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - mjhea0/flaskr-tdd: Flaskr: Intro to Flask, Test Driven Development (TDD), and jQuery</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/2018167?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="mjhea0/flaskr-tdd" property="og:title" /><meta content="https://github.com/mjhea0/flaskr-tdd" property="og:url" /><meta content="flaskr-tdd -  Flaskr: Intro to Flask, Test Driven Development (TDD), and jQuery" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="C9B2:2BB7E:3252E39:517CAED:58EAC7B1" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="C9B2:2BB7E:3252E39:517CAED:58EAC7B1" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YTgxZGY0NTczOGZhNTE5MTI1M2JlOGM2ZGE2NTViZjk1NGRhNzNkNWYxYWEzMmJjMTVjOGJmM2Y5ZWIwY2JhMXx7InJlbW90ZV9hZGRyZXNzIjoiMTg3LjIwLjE0OC42NyIsInJlcXVlc3RfaWQiOiJDOUIyOjJCQjdFOjMyNTJFMzk6NTE3Q0FFRDo1OEVBQzdCMSIsInRpbWVzdGFtcCI6MTQ5MTc4MTU1MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+
+  <meta name="html-safe-nonce" content="6fac138e7c45c7b772a1241e0b42b046236d710f">
+
+  <meta http-equiv="x-pjax-version" content="2fcc845e19df9d36134e232e5e95caa9">
+  
+
+    
+  <meta name="description" content="flaskr-tdd -  Flaskr: Intro to Flask, Test Driven Development (TDD), and jQuery">
+  <meta name="go-import" content="github.com/mjhea0/flaskr-tdd git https://github.com/mjhea0/flaskr-tdd.git">
+
+  <meta content="2018167" name="octolytics-dimension-user_id" /><meta content="mjhea0" name="octolytics-dimension-user_login" /><meta content="14267375" name="octolytics-dimension-repository_id" /><meta content="mjhea0/flaskr-tdd" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="14267375" name="octolytics-dimension-repository_network_root_id" /><meta content="mjhea0/flaskr-tdd" name="octolytics-dimension-repository_network_root_nwo" />
+        <link href="https://github.com/mjhea0/flaskr-tdd/commits/master.atom" rel="alternate" title="Recent Commits to flaskr-tdd:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/mjhea0/flaskr-tdd" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container Details" role="banner">
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav">
+        <a href="/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+          Features
+</a>        <a href="/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+          Business
+</a>        <a href="/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+          Explore
+</a>        <a href="/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing">
+          Pricing
+</a>      </nav>
+
+      <div class="site-header-actions">
+          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mjhea0/flaskr-tdd/search" class="js-site-search-form" data-scoped-search-url="/mjhea0/flaskr-tdd/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/mjhea0/flaskr-tdd" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+          <a class="text-bold site-header-link" href="/login?return_to=%2Fmjhea0%2Fflaskr-tdd" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+    <div class="container repohead-details-container">
+
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fmjhea0%2Fflaskr-tdd"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/mjhea0/flaskr-tdd/watchers"
+     aria-label="42 users are watching this repository">
+    42
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmjhea0%2Fflaskr-tdd"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/mjhea0/flaskr-tdd/stargazers"
+      aria-label="852 users starred this repository">
+      852
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmjhea0%2Fflaskr-tdd"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/mjhea0/flaskr-tdd/network" class="social-count"
+       aria-label="99 users forked this repository">
+      99
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/mjhea0" class="url fn" rel="author">mjhea0</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/mjhea0/flaskr-tdd" data-pjax="#js-repo-pjax-container">flaskr-tdd</a></strong>
+
+</h1>
+
+    </div>
+    <div class="container">
+      
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/mjhea0/flaskr-tdd" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /mjhea0/flaskr-tdd" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/mjhea0/flaskr-tdd/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /mjhea0/flaskr-tdd/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/mjhea0/flaskr-tdd/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /mjhea0/flaskr-tdd/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/mjhea0/flaskr-tdd/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /mjhea0/flaskr-tdd/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="counter">0</span>
+</a>
+
+
+  <a href="/mjhea0/flaskr-tdd/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /mjhea0/flaskr-tdd/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+    Pulse
+</a>
+  <a href="/mjhea0/flaskr-tdd/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /mjhea0/flaskr-tdd/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Graphs
+</a>
+
+</nav>
+
+    </div>
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+<div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+             Flaskr: Intro to Flask, Test Driven Development (TDD), and jQuery
+          </span>
+          <span itemprop="url"><a href="http://flaskr-tdd.herokuapp.com/" rel="nofollow">http://flaskr-tdd.herokuapp.com/</a></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/mjhea0/flaskr-tdd/commits/master">
+            <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+            <span class="num text-emphasized">
+              78
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/mjhea0/flaskr-tdd/branches">
+          <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <span class="num text-emphasized">
+            1
+          </span>
+          branch
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/mjhea0/flaskr-tdd/releases">
+          <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+          <a href="/mjhea0/flaskr-tdd/graphs/contributors">
+  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      7
+    </span>
+    contributors
+</a>
+
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/mjhea0/flaskr-tdd/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                <span class="lang">Python</span>
+                <span class="percent">60.3%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/mjhea0/flaskr-tdd/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">26.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/mjhea0/flaskr-tdd/search?l=css"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">8.4%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/mjhea0/flaskr-tdd/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">4.5%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+    <span class="language-color" aria-label="Python 60.3%" style="width:60.3%; background-color:#3572A5;" itemprop="keywords">Python</span>
+    <span class="language-color" aria-label="HTML 26.8%" style="width:26.8%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+    <span class="language-color" aria-label="CSS 8.4%" style="width:8.4%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    <span class="language-color" aria-label="JavaScript 4.5%" style="width:4.5%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+  </div>
+
+
+<div class="file-navigation in-mid-page">
+
+    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
+  <button class="btn btn-sm btn-primary select-menu-button js-menu-target"
+    title="Clone or download this repository"
+    type="button" aria-label="Clone or download this repository" tabindex="0" aria-haspopup="true">
+    <span>Clone or download</span>
+  </button>
+
+  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container ">
+      <div class="clone-options https-clone-options">
+
+        <h4 class="mb-1">
+          Clone with HTTPS
+          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank">
+            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+          </a>
+        </h4>
+        <p class="mb-2 get-repo-decription-text">
+          Use Git or checkout with SVN using the web URL.
+        </p>
+
+        <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/mjhea0/flaskr-tdd.git" aria-label="Clone this repository at https://github.com/mjhea0/flaskr-tdd.git" readonly>
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></button>
+  </div>
+</div>
+
+      </div>
+
+
+      <div class="mt-2">
+        
+<a href="/mjhea0/flaskr-tdd/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/mjhea0/flaskr-tdd/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/mjhea0/flaskr-tdd/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+      <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+        New pull request
+      </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/mjhea0/flaskr-tdd/commit/3e88f7fe974cba39adbf36f7f46f120f8446eb98" data-pjax>
+        3e88f7f
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-03-13T13:31:42Z">Mar 13, 2017</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@mjhea0" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/2018167?v=3&amp;s=40" width="20" />
+      <a href="/mjhea0" class="user-mention" rel="author">mjhea0</a>
+        committed on <strong>GitHub</strong>
+    </span>
+
+        <a href="/mjhea0/flaskr-tdd/commit/3e88f7fe974cba39adbf36f7f46f120f8446eb98" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+    </span>
+
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a href="/mjhea0/flaskr-tdd/tree/3e88f7fe974cba39adbf36f7f46f120f8446eb98" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/tree/master/static" class="js-navigation-open" id="a81259cef8e959c624df1d456e5d3297-cb5d1f124f4b2d153c654fab11ba35eef29e25c0" title="static">static</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/2559e64c112cb2c8b01ea2b031fc16c92f472688" class="message" data-pjax="true" title="updated bootstrap">updated bootstrap</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:30:34Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/tree/master/templates" class="js-navigation-open" id="fed36e93a0509e20f2dc96cbbd85b678-74d1eeb41b32ab3679e892798364b8af2c194e98" title="templates">templates</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/.gitignore" class="js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-0d8fed9f7c699ca945c84700642247a69719489e" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/ce28ecb266a10781f05972f549409574784777c6" class="message" data-pjax="true" title="updated first test">updated first test</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-24T17:57:47Z">Jan 24, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/CNAME" class="js-navigation-open" id="adc4bfdb0829dae99e3699393e3fbaa4-a4119cadd38cc6fa55ad9a09acc380d2992d50bb" title="CNAME">CNAME</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/d441198df99cbc2a67746416d4c36b9d4fc38568" class="message" data-pjax="true" title="Create CNAME">Create CNAME</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-09T21:16:42Z">Jan 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/Procfile" class="js-navigation-open" id="5bd6b85c2d6fc987875f4bf82de2a15a-8001d1a50b9ae858ac9bce7ade16fa74512f94fd" title="Procfile">Procfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/b8deb937685a0e41b09c5c6b33210c3c99932bc4" class="message" data-pjax="true" title="deployment">deployment</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T16:57:39Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/README.md" class="js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-8ed2733ea5fcd18935f122a3a939bae1a92b5e89" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/3e88f7fe974cba39adbf36f7f46f120f8446eb98" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-13T13:31:42Z">Mar 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/app-test.py" class="js-navigation-open" id="1e48b3c833bdbfddaca6dd2c9cf9c6ea-4cae0cb77879725b521ca3f8271209be5e1f4b28" title="app-test.py">app-test.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/app.py" class="js-navigation-open" id="3f41e546893dc64b71aaacad12cad815-f94af521ae23e626e8f82281c5de0792c017d46e" title="app.py">app.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/create_db.py" class="js-navigation-open" id="84123ca5156cbf8a3ea2270e2312b07b-ff903906f394beb3624e2eb95ef5e995daacb9de" title="create_db.py">create_db.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/flaskr.db" class="js-navigation-open" id="beebfec2f7a219848f54d51a480aee36-bd8783d616266b340e17629e78a7d3457cd087fb" title="flaskr.db">flaskr.db</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/models.py" class="js-navigation-open" id="f219bfe69e6ed201e4bdfdb371dc0c9b-01267e1912206d54c780ce237e533b7cf11cca93" title="models.py">models.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/requirements.txt" class="js-navigation-open" id="b4ef698db8ca845e5845c4618278f29a-b71094e615396bd3e6324d9e4f20946f883cc832" title="requirements.txt">requirements.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/67446ca11081608e1cc1979530eb4d834f6f672a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:54:10Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/tdd.png" class="js-navigation-open" id="4d4d6c59ad90c6a50a0d77996003fa3a-46d58300f1bd9e9380f579f75b533224cfcf4073" title="tdd.png">tdd.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/5b0d88510f5a723cfdf45036be35278450ac5658" class="message" data-pjax="true" title="uploaded tdd image">uploaded tdd image</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-05T01:07:07Z">Feb 5, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mjhea0/flaskr-tdd/blob/master/test.db" class="js-navigation-open" id="fa3481c52b40c0bc7c269cfa461873e5-56d19b5c2d8c795a0ec72b8cadb6220b59f1d14e" title="test.db">test.db</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/mjhea0/flaskr-tdd/commit/22e44156979b067e99e0c6d029b92133fb12d51a" class="message" data-pjax="true" title="sqlalchemy">sqlalchemy</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T17:53:08Z">Jan 27, 2016</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-flaskr---intro-to-flask-test-driven-development-and-jquery" class="anchor" href="#flaskr---intro-to-flask-test-driven-development-and-jquery" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flaskr - Intro to Flask, Test Driven Development, and jQuery</h1>
+<p>As many of you know, Flaskr - a mini-blog-like-app - is the app you build for the official <a href="http://flask.pocoo.org/docs/tutorial/introduction/">tutorial</a> for Flask, the awesome, Python-based micro web framework. I've gone through the tutorial more times than I care to admit. Anyway, I wanted to take the tutorial a step further by adding test driven development and a bit of jQuery. This post is that tutorial. Enjoy.</p>
+<p>Also, if you are completely new to Flask and/or web development in general, it's important to grasp these basic fundamental concepts:</p>
+<ol>
+<li>The difference between GET and POST requests and how functions within the app handle each.</li>
+<li>What a "request" is.</li>
+<li>How HTML pages are rendered and/or returned to the end user.</li>
+</ol>
+<blockquote>
+<p><strong>NOTE</strong>: This tutorial is powered by <strong><a href="https://realpython.com">Real Python</a></strong>. Please support this open source project by purchasing our <a href="http://www.realpython.com/courses">courses</a> to learn Python and web development with Django and Flask!</p>
+</blockquote>
+<h3><a id="user-content-change-log" class="anchor" href="#change-log" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change Log</h3>
+<ul>
+<li>01/24/2016: Updated to Python 3! (v3.5.1)</li>
+<li>08/24/2014: PEP8 updates.</li>
+<li>02/25/2014: Upgraded to SQLAlchemy.</li>
+<li>02/20/2014: Completed AJAX.</li>
+<li>12/06/2013: Added Bootstrap 3 styles</li>
+<li>11/29/2013: Updated unit tests.</li>
+<li>11/19/2013: Fixed typo. Updated unit tests.</li>
+<li>11/11/2013: Added information on requests.</li>
+</ul>
+<h3><a id="user-content-contents" class="anchor" href="#contents" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h3>
+<ol>
+<li><a href="#test-driven-development">Test Driven Development?</a></li>
+<li><a href="#download-python">Download Python</a></li>
+<li><a href="#project-setup">Project Setup</a></li>
+<li><a href="#first-test">First Test</a></li>
+<li><a href="#flaskr-setup">Flaskr Setup</a></li>
+<li><a href="#second-test">Second Test</a></li>
+<li><a href="#database-setup">Database Setup</a></li>
+<li><a href="#templates-and-views">Templates and Views</a></li>
+<li><a href="#add-some-color">Add Some Color</a></li>
+<li><a href="#test">Test</a></li>
+<li><a href="#jquery">jQuery</a></li>
+<li><a href="#deployment">Deployment</a></li>
+<li><a href="#test-again">Test (again!)</a></li>
+<li><a href="#bootstrap">Bootstrap</a></li>
+<li><a href="#sqlalchemy">SQLAlchemy</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+<h3><a id="user-content-requirements" class="anchor" href="#requirements" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h3>
+<p>This tutorial utilizes the following requirements:</p>
+<ol>
+<li>Python v3.5.1</li>
+<li>Flask v0.10.1</li>
+<li>Flask-SQLAlchemy v2.1</li>
+<li>gunicorn v19.4.5</li>
+</ol>
+<h2><a id="user-content-test-driven-development" class="anchor" href="#test-driven-development" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test Driven Development?</h2>
+<p><a href="https://raw.githubusercontent.com/mjhea0/flaskr-tdd/master/tdd.png" target="_blank"><img src="https://raw.githubusercontent.com/mjhea0/flaskr-tdd/master/tdd.png" alt="tdd" style="max-width:100%;"></a></p>
+<p>Test Driven Development (TDD) is an iterative development cycle that emphasizes writing automated tests before writing the actual feature of function. Put another way, TDD combines building and testing. This process not only helps ensure correctness of the code - but also helps to indirectly evolve the design and architecture of the project at hand.</p>
+<p>TDD usually follows the "Red-Green-Refactor" cycle, as shown in the image above:</p>
+<ol>
+<li>Write a test</li>
+<li>Run the test (it should fail)</li>
+<li>Write just enough code for the test to pass</li>
+<li>Refactor code and retest, again and again (if necessary)</li>
+</ol>
+<h2><a id="user-content-download-python" class="anchor" href="#download-python" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download Python</h2>
+<p>Before beginning make sure you have the latest version of <a href="https://www.python.org/downloads/release/python-350/">Python 3.5</a> installed, which you can download from <a href="http://www.python.org/download/">http://www.python.org/download/</a>.</p>
+<blockquote>
+<p><strong>NOTE</strong>: This tutorial uses Python v3.5.1.</p>
+</blockquote>
+<p>Along with Python, this also installed-</p>
+<ul>
+<li><a href="https://pip.pypa.io/en/stable/">pip</a> - a <a href="http://en.wikipedia.org/wiki/Package_management_system">package management</a> system for Python, similar to gem or npm for Ruby and Node, respectively.</li>
+<li><a href="https://docs.python.org/3/library/venv.html">pyvenv</a> - used to create isolated environments for development. This is standard practice. Always, always, ALWAYS utilize virtual environments. If you don't, you will eventually run into problems with compatibility between different dependencies. Just do it.</li>
+</ul>
+<h2><a id="user-content-project-setup" class="anchor" href="#project-setup" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project Setup</h2>
+<ol>
+<li>Create a new directory to store the project:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ mkdir flaskr-tdd
+$ <span class="pl-c1">cd</span> flaskr-tdd</pre></div>
+<ol>
+<li>Create and activate your virtual env:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ pyvenv-3.5 env
+$ <span class="pl-c1">source</span> env/bin/activate</pre></div>
+<blockquote>
+<p><strong>NOTE</strong>: You know that you are in a virtual env, as the actual "env" is now show before the $ in your terminal - (env). To exit the virtual environment, use the command <code>deactivate</code>, then you can reactivate by navigating back to the directory and running - <code>source env/bin/activate</code>.</p>
+</blockquote>
+<ol>
+<li>Install Flask with pip:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ pip3 install Flask</pre></div>
+<h2><a id="user-content-first-test" class="anchor" href="#first-test" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>First Test</h2>
+<p>Let's start with a simple "hello, world" app.</p>
+<ol>
+<li>Create a test file:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ touch app-test.py</pre></div>
+<p>Open this file in your favorite text editor. (I use <a href="http://www.sublimetext.com/">Sublime</a>.) Add the following code:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> app <span class="pl-k">import</span> app
+
+<span class="pl-k">import</span> unittest
+
+
+<span class="pl-k">class</span> <span class="pl-en">BasicTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_index</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        tester <span class="pl-k">=</span> app.test_client(<span class="pl-c1">self</span>)
+        response <span class="pl-k">=</span> tester.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>, <span class="pl-v">content_type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>html/text<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(response.status_code, <span class="pl-c1">200</span>)
+        <span class="pl-c1">self</span>.assertEqual(response.data, <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>Hello, World!<span class="pl-pds">'</span></span>)
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    unittest.main()</pre></div>
+<p>Essentially, we're testing whether the response that we get back is "200" and that "Hello, World!" is displayed.</p>
+<ol>
+<li>Run the test</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ python app-test.py</pre></div>
+<p>If all goes well, this will fail.</p>
+<ol>
+<li>Now add the code for this to pass.</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ touch app.py</pre></div>
+<p>Code:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> flask <span class="pl-k">import</span> Flask
+
+app <span class="pl-k">=</span> Flask(<span class="pl-c1">__name__</span>)
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">hello</span>():
+    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">"</span>Hello, World!<span class="pl-pds">"</span></span>
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">"</span>__main__<span class="pl-pds">"</span></span>:
+    app.run()</pre></div>
+<ol>
+<li>Run the app:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ python app.py</pre></div>
+<p>Then Navigate to <a href="http://localhost:5000/">http://localhost:5000/</a>. You should see "Hello, World!" on your screen.</p>
+<p>Return to the terminal. Kill the server with Ctrl+C.</p>
+<ol>
+<li>Run the test again:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ python app-test.py
+<span class="pl-c1">.</span>
+----------------------------------------------------------------------
+Ran 1 <span class="pl-c1">test</span> <span class="pl-k">in</span> 0.016s
+
+OK</pre></div>
+<p>Nice.</p>
+<h2><a id="user-content-flaskr-setup" class="anchor" href="#flaskr-setup" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flaskr Setup</h2>
+<ol>
+<li>Add structure</li>
+</ol>
+<p>Add two folders, "static" and "templates", in the project root. Your file structure should now look like this:</p>
+<div class="highlight highlight-source-shell"><pre>├── app-test.py
+├── app.py
+├── static
+└── templates</pre></div>
+<ol>
+<li>SQL Schema</li>
+</ol>
+<p>Create a new file called "schema.sql" and add the following code:</p>
+<div class="highlight highlight-source-python"><pre>drop table <span class="pl-k">if</span> exists entries<span class="pl-bu">;</span>
+create table entries (
+  <span class="pl-c1">id</span> integer primary key autoincrement,
+  title text <span class="pl-k">not</span> null,
+  text text <span class="pl-k">not</span> null
+)<span class="pl-bu">;</span></pre></div>
+<p>This will setup a single table with three fields - "id", "title", and "text". SQLite will be used for our RDMS since it's built in to the standard Python library and requires no configuration.</p>
+<h2><a id="user-content-second-test" class="anchor" href="#second-test" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Second Test</h2>
+<p>Let's create the basic file for running our application. Before that though, we need to write a test first.</p>
+<ol>
+<li>Simply alter <em>app-test.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> app <span class="pl-k">import</span> app
+
+<span class="pl-k">import</span> unittest
+
+
+<span class="pl-k">class</span> <span class="pl-en">BasicTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_index</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        tester <span class="pl-k">=</span> app.test_client(<span class="pl-c1">self</span>)
+        response <span class="pl-k">=</span> tester.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>, <span class="pl-v">content_type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>html/text<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(response.status_code, <span class="pl-c1">404</span>)
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    unittest.main()</pre></div>
+<p>So, we are expecting a 404 error. Run the test. This will fail. Why does this fail? Simple. We are expecting a 404, but we actually get a 200 back since the route exists.</p>
+<ol>
+<li>Update <em>app.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-c"><span class="pl-c">#</span> imports</span>
+<span class="pl-k">import</span> sqlite3
+<span class="pl-k">from</span> flask <span class="pl-k">import</span> Flask, request, session, g, redirect, url_for, \
+     abort, render_template, flash, jsonify
+
+<span class="pl-c"><span class="pl-c">#</span> configuration</span>
+<span class="pl-c1">DATABASE</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>flaskr.db<span class="pl-pds">'</span></span>
+<span class="pl-c1">DEBUG</span> <span class="pl-k">=</span> <span class="pl-c1">True</span>
+<span class="pl-c1">SECRET_KEY</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>my_precious<span class="pl-pds">'</span></span>
+<span class="pl-c1">USERNAME</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>admin<span class="pl-pds">'</span></span>
+<span class="pl-c1">PASSWORD</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>admin<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> create and initialize app</span>
+app <span class="pl-k">=</span> Flask(<span class="pl-c1">__name__</span>)
+app.config.from_object(<span class="pl-c1">__name__</span>)
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    app.run()</pre></div>
+<p>Here, we add in all required imports, create a configuration section for global variables, initialize the app, and then finally run the app.</p>
+<ol>
+<li>Run it:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ python app.py</pre></div>
+<p>Launch the server. You should see the 404 error because no routes or views are setup. Return to the terminal. Kill the server. Now run the unit test. It should pass.</p>
+<h2><a id="user-content-database-setup" class="anchor" href="#database-setup" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database Setup</h2>
+<p>Essentially, we want to open a database connection, create the database based on the schema if it doesn't already exist, then close the connection each time a test is ran.</p>
+<ol>
+<li>How do we test for the existence of a file? Update <em>app-test.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> unittest
+<span class="pl-k">import</span> os
+<span class="pl-k">from</span> app <span class="pl-k">import</span> app
+
+
+<span class="pl-k">class</span> <span class="pl-en">BasicTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_index</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        tester <span class="pl-k">=</span> app.test_client(<span class="pl-c1">self</span>)
+        response <span class="pl-k">=</span> tester.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>, <span class="pl-v">content_type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>html/text<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(response.status_code, <span class="pl-c1">404</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_database</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        tester <span class="pl-k">=</span> os.path.exists(<span class="pl-s"><span class="pl-pds">"</span>flaskr.db<span class="pl-pds">"</span></span>)
+        <span class="pl-c1">self</span>.assertTrue(tester)
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    unittest.main()</pre></div>
+<p>Run it to make sure it fails, indicating that the database does not exist.</p>
+<ol>
+<li>Now add the following code to <em>app.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-c"><span class="pl-c">#</span> connect to database</span>
+<span class="pl-k">def</span> <span class="pl-en">connect_db</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>Connects to the database.<span class="pl-pds">"""</span></span>
+    rv <span class="pl-k">=</span> sqlite3.connect(app.config[<span class="pl-s"><span class="pl-pds">'</span>DATABASE<span class="pl-pds">'</span></span>])
+    rv.row_factory <span class="pl-k">=</span> sqlite3.Row
+    <span class="pl-k">return</span> rv
+
+
+<span class="pl-c"><span class="pl-c">#</span> create the database</span>
+<span class="pl-k">def</span> <span class="pl-en">init_db</span>():
+    <span class="pl-k">with</span> app.app_context():
+        db <span class="pl-k">=</span> get_db()
+        <span class="pl-k">with</span> app.open_resource(<span class="pl-s"><span class="pl-pds">'</span>schema.sql<span class="pl-pds">'</span></span>, <span class="pl-v">mode</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>r<span class="pl-pds">'</span></span>) <span class="pl-k">as</span> f:
+            db.cursor().executescript(f.read())
+        db.commit()
+
+
+<span class="pl-c"><span class="pl-c">#</span> open database connection</span>
+<span class="pl-k">def</span> <span class="pl-en">get_db</span>():
+    <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-c1">hasattr</span>(g, <span class="pl-s"><span class="pl-pds">'</span>sqlite_db<span class="pl-pds">'</span></span>):
+        g.sqlite_db <span class="pl-k">=</span> connect_db()
+    <span class="pl-k">return</span> g.sqlite_db
+
+
+<span class="pl-c"><span class="pl-c">#</span> close database connection</span>
+<span class="pl-en">@app.teardown_appcontext</span>
+<span class="pl-k">def</span> <span class="pl-en">close_db</span>(<span class="pl-smi">error</span>):
+    <span class="pl-k">if</span> <span class="pl-c1">hasattr</span>(g, <span class="pl-s"><span class="pl-pds">'</span>sqlite_db<span class="pl-pds">'</span></span>):
+        g.sqlite_db.close()</pre></div>
+<p>And add the <code>init_db()</code> function at the bottom of <code>app.py</code> to make sure we start the server each time with a fresh database:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    init_db()
+    app.run()</pre></div>
+<p>Now it is possible to create a database by starting up a Python shell and importing and calling the <code>init_db()</code> function:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">&gt;&gt;</span><span class="pl-k">&gt;</span> <span class="pl-k">from</span> app <span class="pl-k">import</span> init_db
+<span class="pl-k">&gt;&gt;</span><span class="pl-k">&gt;</span> init_db()</pre></div>
+<p>Close the shell, then run the test again. Does it pass? Now we know that the database has been created.</p>
+<h2><a id="user-content-templates-and-views" class="anchor" href="#templates-and-views" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Templates and Views</h2>
+<p>Next, we need to set up the Templates and associated Views, which define the routes. Think about this from a user standpoint. We need to log users in and out. Once logged in, users need to be able to post. Finally, we need to display posts.</p>
+<p>Write some tests for this first.</p>
+<h3><a id="user-content-unit-tests" class="anchor" href="#unit-tests" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unit Tests</h3>
+<p>Take a look at the final code. I added docstrings for explanation.</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> unittest
+<span class="pl-k">import</span> os
+<span class="pl-k">import</span> tempfile
+<span class="pl-k">import</span> app
+
+
+<span class="pl-k">class</span> <span class="pl-en">BasicTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_index</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>initial test. ensure flask was set up correctly<span class="pl-pds">"""</span></span>
+        tester <span class="pl-k">=</span> app.app.test_client(<span class="pl-c1">self</span>)
+        response <span class="pl-k">=</span> tester.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>, <span class="pl-v">content_type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>html/text<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(response.status_code, <span class="pl-c1">200</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_database</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>initial test. ensure that the database exists<span class="pl-pds">"""</span></span>
+        tester <span class="pl-k">=</span> os.path.exists(<span class="pl-s"><span class="pl-pds">"</span>flaskr.db<span class="pl-pds">"</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(tester, <span class="pl-c1">True</span>)
+
+
+<span class="pl-k">class</span> <span class="pl-en">FlaskrTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">setUp</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Set up a blank temp database before each test<span class="pl-pds">"""</span></span>
+        <span class="pl-c1">self</span>.db_fd, app.app.config[<span class="pl-s"><span class="pl-pds">'</span>DATABASE<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> tempfile.mkstemp()
+        app.app.config[<span class="pl-s"><span class="pl-pds">'</span>TESTING<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">True</span>
+        <span class="pl-c1">self</span>.app <span class="pl-k">=</span> app.app.test_client()
+        app.init_db()
+
+    <span class="pl-k">def</span> <span class="pl-en">tearDown</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Destroy blank temp database after each test<span class="pl-pds">"""</span></span>
+        os.close(<span class="pl-c1">self</span>.db_fd)
+        os.unlink(app.app.config[<span class="pl-s"><span class="pl-pds">'</span>DATABASE<span class="pl-pds">'</span></span>])
+
+    <span class="pl-k">def</span> <span class="pl-en">login</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>, <span class="pl-smi">username</span>, <span class="pl-smi">password</span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Login helper function<span class="pl-pds">"""</span></span>
+        <span class="pl-k">return</span> <span class="pl-c1">self</span>.app.post(<span class="pl-s"><span class="pl-pds">'</span>/login<span class="pl-pds">'</span></span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-c1">dict</span>(
+            <span class="pl-v">username</span><span class="pl-k">=</span>username,
+            <span class="pl-v">password</span><span class="pl-k">=</span>password
+        ), <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">logout</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Logout helper function<span class="pl-pds">"""</span></span>
+        <span class="pl-k">return</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/logout<span class="pl-pds">'</span></span>, <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+
+    <span class="pl-c"><span class="pl-c">#</span> assert functions</span>
+
+    <span class="pl-k">def</span> <span class="pl-en">test_empty_db</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Ensure database is blank<span class="pl-pds">"""</span></span>
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>)
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>No entries here so far<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+
+    <span class="pl-k">def</span> <span class="pl-en">test_login_logout</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Test login and logout using helper functions<span class="pl-pds">"""</span></span>
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>],
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>]
+        )
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>You were logged in<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.logout()
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>You were logged out<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>] <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>x<span class="pl-pds">'</span></span>,
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>]
+        )
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>Invalid username<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>],
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>] <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>x<span class="pl-pds">'</span></span>
+        )
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>Invalid password<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+
+    <span class="pl-k">def</span> <span class="pl-en">test_messages</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Ensure that user can post messages<span class="pl-pds">"""</span></span>
+        <span class="pl-c1">self</span>.login(
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>],
+            app.app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>]
+        )
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.post(<span class="pl-s"><span class="pl-pds">'</span>/add<span class="pl-pds">'</span></span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-c1">dict</span>(
+            <span class="pl-v">title</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>&lt;Hello&gt;<span class="pl-pds">'</span></span>,
+            <span class="pl-v">text</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>&lt;strong&gt;HTML&lt;/strong&gt; allowed here<span class="pl-pds">'</span></span>
+        ), <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>No entries here so far<span class="pl-pds">'</span></span> <span class="pl-k">not</span> <span class="pl-k">in</span> rv.data
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>&amp;lt;Hello&amp;gt;<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+        <span class="pl-k">assert</span> <span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>&lt;strong&gt;HTML&lt;/strong&gt; allowed here<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    unittest.main()</pre></div>
+<p>If you run the tests now, all will fail except for <code>test_database()</code>:</p>
+<div class="highlight highlight-source-shell"><pre>python app-test.py
+.FFFF
+======================================================================
+FAIL: test_index (__main__.BasicTestCase)
+initial test. ensure flask was <span class="pl-c1">set</span> up correctly
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File <span class="pl-s"><span class="pl-pds">"</span>app-test.py<span class="pl-pds">"</span></span>, line 13, <span class="pl-k">in</span> test_index
+    self.assertEqual(response.status_code, 200)
+AssertionError: 404 <span class="pl-k">!</span>= 200
+
+======================================================================
+FAIL: test_empty_db (__main__.FlaskrTestCase)
+Ensure database is blank
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File <span class="pl-s"><span class="pl-pds">"</span>app-test.py<span class="pl-pds">"</span></span>, line 51, <span class="pl-k">in</span> test_empty_db
+    assert b<span class="pl-s"><span class="pl-pds">'</span>No entries here so far<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+AssertionError
+
+======================================================================
+FAIL: test_login_logout (__main__.FlaskrTestCase)
+Test login and <span class="pl-c1">logout</span> using helper functions
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File <span class="pl-s"><span class="pl-pds">"</span>app-test.py<span class="pl-pds">"</span></span>, line 59, <span class="pl-k">in</span> test_login_logout
+    assert b<span class="pl-s"><span class="pl-pds">'</span>You were logged in<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+AssertionError
+
+======================================================================
+FAIL: test_messages (__main__.FlaskrTestCase)
+Ensure that user can post messages
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File <span class="pl-s"><span class="pl-pds">"</span>app-test.py<span class="pl-pds">"</span></span>, line 84, <span class="pl-k">in</span> test_messages
+    assert b<span class="pl-s"><span class="pl-pds">'</span>&amp;lt;Hello&amp;gt;<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+AssertionError
+
+----------------------------------------------------------------------
+Ran 5 tests <span class="pl-k">in</span> 0.088s
+
+FAILED (failures=4)</pre></div>
+<p>Let's get these all green, one at a time...</p>
+<h3><a id="user-content-show-entries" class="anchor" href="#show-entries" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Show Entries</h3>
+<ol>
+<li>First, add a View for displaying the entires to <em>app.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">show_entries</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>Searches the database for entries, then displays them.<span class="pl-pds">"""</span></span>
+    db <span class="pl-k">=</span> get_db()
+    cur <span class="pl-k">=</span> db.execute(<span class="pl-s"><span class="pl-pds">'</span>select * from entries order by id desc<span class="pl-pds">'</span></span>)
+    entries <span class="pl-k">=</span> cur.fetchall()
+    <span class="pl-k">return</span> render_template(<span class="pl-s"><span class="pl-pds">'</span>index.html<span class="pl-pds">'</span></span>, <span class="pl-v">entries</span><span class="pl-k">=</span>entries)</pre></div>
+<ol>
+<li>Then add the <em>index.html</em> template to the "templates" folder:</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Flaskr&lt;/<span class="pl-ent">title</span>&gt;
+  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('static', filename='style.css') }}<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>page<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">h1</span>&gt;Flaskr-TDD&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>metanav<span class="pl-pds">"</span></span>&gt;
+      {% if not session.logged_in %}
+        &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('login') }}<span class="pl-pds">"</span></span>&gt;log in&lt;/<span class="pl-ent">a</span>&gt;
+      {% else %}
+        &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('logout') }}<span class="pl-pds">"</span></span>&gt;log out&lt;/<span class="pl-ent">a</span>&gt;
+      {% endif %}
+    &lt;/<span class="pl-ent">div</span>&gt;
+    {% for message in get_flashed_messages() %}
+      &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flash<span class="pl-pds">"</span></span>&gt;{{ message }}&lt;/<span class="pl-ent">div</span>&gt;
+    {% endfor %}
+    {% block body %}{% endblock %}
+
+    {% if session.logged_in %}
+      &lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('add_entry') }}<span class="pl-pds">"</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">"</span>post<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>add-entry<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">dl</span>&gt;
+          &lt;<span class="pl-ent">dt</span>&gt;Title:&lt;/<span class="pl-ent">dt</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">size</span>=<span class="pl-s"><span class="pl-pds">"</span>30<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>title<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+          &lt;<span class="pl-ent">dt</span>&gt;Text:&lt;/<span class="pl-ent">dt</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">textarea</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">rows</span>=<span class="pl-s"><span class="pl-pds">"</span>5<span class="pl-pds">"</span></span> <span class="pl-e">cols</span>=<span class="pl-s"><span class="pl-pds">"</span>40<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">textarea</span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>submit<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>Share<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;/<span class="pl-ent">dl</span>&gt;
+      &lt;/<span class="pl-ent">form</span>&gt;
+    {% endif %}
+    &lt;<span class="pl-ent">ul</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>entries<span class="pl-pds">"</span></span>&gt;
+      {% for entry in entries %}
+        &lt;<span class="pl-ent">li</span>&gt;&lt;<span class="pl-ent">h2</span>&gt;{{ entry.title }}&lt;/<span class="pl-ent">h2</span>&gt;{{ entry.text|safe }}&lt;/<span class="pl-ent">li</span>&gt;
+      {% else %}
+        &lt;<span class="pl-ent">li</span>&gt;&lt;<span class="pl-ent">em</span>&gt;No entries yet. Add some!&lt;/<span class="pl-ent">em</span>&gt;&lt;/<span class="pl-ent">li</span>&gt;
+      {% endfor %}
+    &lt;/<span class="pl-ent">ul</span>&gt;
+
+  &lt;/<span class="pl-ent">div</span>&gt;
+
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<ol>
+<li>Run the tests now. You should see:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>Ran 5 tests <span class="pl-k">in</span> 0.131s
+
+FAILED (failures=2, errors=2)</pre></div>
+<h3><a id="user-content-user-login-and-logout" class="anchor" href="#user-login-and-logout" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User Login and Logout</h3>
+<ol>
+<li>Update <em>app.py</em>:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/login<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">login</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>User login/authentication/session management.<span class="pl-pds">"""</span></span>
+    error <span class="pl-k">=</span> <span class="pl-c1">None</span>
+    <span class="pl-k">if</span> request.method <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>:
+        <span class="pl-k">if</span> request.form[<span class="pl-s"><span class="pl-pds">'</span>username<span class="pl-pds">'</span></span>] <span class="pl-k">!=</span> app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>]:
+            error <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Invalid username<span class="pl-pds">'</span></span>
+        <span class="pl-k">elif</span> request.form[<span class="pl-s"><span class="pl-pds">'</span>password<span class="pl-pds">'</span></span>] <span class="pl-k">!=</span> app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>]:
+            error <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Invalid password<span class="pl-pds">'</span></span>
+        <span class="pl-k">else</span>:
+            session[<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">True</span>
+            flash(<span class="pl-s"><span class="pl-pds">'</span>You were logged in<span class="pl-pds">'</span></span>)
+            <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))
+    <span class="pl-k">return</span> render_template(<span class="pl-s"><span class="pl-pds">'</span>login.html<span class="pl-pds">'</span></span>, <span class="pl-v">error</span><span class="pl-k">=</span>error)
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/logout<span class="pl-pds">'</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">logout</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>User logout/authentication/session management.<span class="pl-pds">"""</span></span>
+    session.pop(<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>, <span class="pl-c1">None</span>)
+    flash(<span class="pl-s"><span class="pl-pds">'</span>You were logged out<span class="pl-pds">'</span></span>)
+    <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))</pre></div>
+<p>In the above <code>login()</code> function, the decorator indicates that the route can accept either a GET or POST request. Put simply, a request is initiated by the end user when they access the <code>/login</code> url. The difference between these requests is simple - GET is used for simply accessing a webpage, while POST is used when information is sent to the server. Thus, when a user simply accesses the <code>/login</code> url, they are using a GET request, but when they attempt to login, a POST request is used.</p>
+<ol>
+<li>Add the template, "login.html":</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Flaskr-TDD | Login&lt;/<span class="pl-ent">title</span>&gt;
+  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('static', filename='style.css') }}<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>page<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">h1</span>&gt;Flaskr&lt;/<span class="pl-ent">h1</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>metanav<span class="pl-pds">"</span></span>&gt;
+      {% if not session.logged_in %}
+        &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('login') }}<span class="pl-pds">"</span></span>&gt;log in&lt;/<span class="pl-ent">a</span>&gt;
+      {% else %}
+        &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('logout') }}<span class="pl-pds">"</span></span>&gt;log out&lt;/<span class="pl-ent">a</span>&gt;
+      {% endif %}
+    &lt;/<span class="pl-ent">div</span>&gt;
+    {% for message in get_flashed_messages() %}
+      &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flash<span class="pl-pds">"</span></span>&gt;{{ message }}&lt;/<span class="pl-ent">div</span>&gt;
+    {% endfor %}
+    {% block body %}{% endblock %}
+
+    &lt;<span class="pl-ent">h2</span>&gt;Login&lt;/<span class="pl-ent">h2</span>&gt;
+    {% if error %}
+      &lt;<span class="pl-ent">p</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>error<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">strong</span>&gt;Error:&lt;/<span class="pl-ent">strong</span>&gt; {{ error }}&lt;/<span class="pl-ent">p</span>&gt;
+    {% endif %}
+    &lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('login') }}<span class="pl-pds">"</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">"</span>post<span class="pl-pds">"</span></span>&gt;
+      &lt;<span class="pl-ent">dl</span>&gt;
+        &lt;<span class="pl-ent">dt</span>&gt;Username:&lt;/<span class="pl-ent">dt</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;<span class="pl-ent">dt</span>&gt;Password:&lt;/<span class="pl-ent">dt</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>submit<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>Login<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+      &lt;/<span class="pl-ent">dl</span>&gt;
+    &lt;/<span class="pl-ent">form</span>&gt;
+
+  &lt;/<span class="pl-ent">div</span>&gt;
+
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<ol>
+<li>Run the tests again.</li>
+</ol>
+<p>You should still see some errors! Look at one of the errors - <code>werkzeug.routing.BuildError: Could not build url for endpoint 'index'. Did you mean 'login' instead?</code></p>
+<p>Essentially, we are trying to redirect to the <code>index()</code> function, which does not exist. Rename the <code>show_entries()</code> function to <code>index()</code> within <em>app.py</em> then re-test:</p>
+<div class="highlight highlight-source-shell"><pre>Ran 5 tests <span class="pl-k">in</span> 0.070s
+
+FAILED (failures=1, errors=2)</pre></div>
+<ol>
+<li>Next, add in a View for adding entries:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/add<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">add_entry</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>Add new post to database.<span class="pl-pds">"""</span></span>
+    <span class="pl-k">if</span> <span class="pl-k">not</span> session.get(<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>):
+        abort(<span class="pl-c1">401</span>)
+    db <span class="pl-k">=</span> get_db()
+    db.execute(
+        <span class="pl-s"><span class="pl-pds">'</span>insert into entries (title, text) values (?, ?)<span class="pl-pds">'</span></span>,
+        [request.form[<span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span>], request.form[<span class="pl-s"><span class="pl-pds">'</span>text<span class="pl-pds">'</span></span>]]
+    )
+    db.commit()
+    flash(<span class="pl-s"><span class="pl-pds">'</span>New entry was successfully posted<span class="pl-pds">'</span></span>)
+    <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))</pre></div>
+<ol>
+<li>Retest.</li>
+</ol>
+<p>Now you should see:</p>
+<div class="highlight highlight-source-shell"><pre>======================================================================
+FAIL: test_empty_db (__main__.FlaskrTestCase)
+Ensure database is blank
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File <span class="pl-s"><span class="pl-pds">"</span>app-test.py<span class="pl-pds">"</span></span>, line 49, <span class="pl-k">in</span> test_empty_db
+    assert b<span class="pl-s"><span class="pl-pds">'</span>No entries here so far<span class="pl-pds">'</span></span> <span class="pl-k">in</span> rv.data
+AssertionError
+
+----------------------------------------------------------------------
+Ran 5 tests <span class="pl-k">in</span> 0.072s
+
+FAILED (failures=1)</pre></div>
+<p>This error is asserting that when the route <code>/</code> is hit, the message "No entries here so far" is returned. Check the <em>index.html</em> Template. The message actually reads "No entries yet. Add some!". So update the test and then retest:</p>
+<div class="highlight highlight-source-shell"><pre>Ran 5 tests <span class="pl-k">in</span> 0.156s
+
+OK</pre></div>
+<p>Perfect.</p>
+<h2><a id="user-content-add-some-color" class="anchor" href="#add-some-color" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add Some Color</h2>
+<p>Save the following styles to a new file called <em>style.css</em> in the "static" folder:</p>
+<div class="highlight highlight-source-css"><pre><span class="pl-ent">body</span> {
+  <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-c1">sans-serif</span>;
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#eee</span>;
+}
+
+<span class="pl-ent">a</span>, <span class="pl-ent">h1</span>, <span class="pl-ent">h2</span> {
+  <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#377BA8</span>;
+}
+
+<span class="pl-ent">h1</span>, <span class="pl-ent">h2</span> {
+  <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-s"><span class="pl-pds">'</span>Georgia<span class="pl-pds">'</span></span>, <span class="pl-c1">serif</span>;
+  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">0</span>;
+}
+
+<span class="pl-ent">h1</span> {
+  <span class="pl-c1"><span class="pl-c1">border-bottom</span></span>: <span class="pl-c1">2<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">#eee</span>;
+}
+
+<span class="pl-ent">h2</span> {
+  <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">1.2<span class="pl-k">em</span></span>;
+}
+
+<span class="pl-e">.page</span> {
+  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">2<span class="pl-k">em</span></span> <span class="pl-c1">auto</span>;
+  <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">35<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">5<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">#ccc</span>;
+  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0.8<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">white</span>;
+}
+
+<span class="pl-e">.entries</span> {
+  <span class="pl-c1"><span class="pl-c1">list-style</span></span>: <span class="pl-c1">none</span>;
+  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">0</span>;
+  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0</span>;
+}
+
+<span class="pl-e">.entries</span> <span class="pl-ent">li</span> {
+  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">0.8<span class="pl-k">em</span></span> <span class="pl-c1">1.2<span class="pl-k">em</span></span>;
+}
+
+<span class="pl-e">.entries</span> <span class="pl-ent">li</span> <span class="pl-ent">h2</span> {
+  <span class="pl-c1"><span class="pl-c1">margin-left</span></span>: <span class="pl-c1">-1<span class="pl-k">em</span></span>;
+}
+
+<span class="pl-e">.add-entry</span> {
+  <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">0.9<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">border-bottom</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">#ccc</span>;
+}
+
+<span class="pl-e">.add-entry</span> <span class="pl-ent">dl</span> {
+  <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">bold</span>;
+}
+
+<span class="pl-e">.metanav</span> {
+  <span class="pl-c1"><span class="pl-c1">text-align</span></span>: <span class="pl-c1">right</span>;
+  <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">0.8<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0.3<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">margin-bottom</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fafafa</span>;
+}
+
+<span class="pl-e">.flash</span> {
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#CEE5F5</span>;
+  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0.5<span class="pl-k">em</span></span>;
+  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">#AACBE2</span>;
+}
+
+<span class="pl-e">.error</span> {
+  <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#F0D6D6</span>;
+  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0.5<span class="pl-k">em</span></span>;
+}</pre></div>
+<h2><a id="user-content-test" class="anchor" href="#test" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test</h2>
+<p>Run you app, log in (username/password = "admin"), post, log out. Then run your tests to ensure that they still pass.</p>
+<h2><a id="user-content-jquery" class="anchor" href="#jquery" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>jQuery</h2>
+<p>Now let's add some jQuery to make the site slightly more interactive.</p>
+<ol>
+<li>Open <em>index.html</em> and update the first <code>&lt;li</code>&gt; like so:</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">li</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>entry<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">h2</span> <span class="pl-e">id</span>=<span class="pl-s">{{</span> <span class="pl-e">entry</span>.<span class="pl-e">id</span> }}&gt;{{ entry.title }}&lt;/<span class="pl-ent">h2</span>&gt;{{ entry.text|safe }}&lt;/<span class="pl-ent">li</span>&gt;</pre></div>
+<p>Now we can use jQuery to target each <code>&lt;li</code>&gt;. First, we need to add the following scripts to the document just before the closing body tag:</p>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//code.jquery.com/jquery-1.10.2.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>{{url_for('static', filename='main.js') }}<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+<ol>
+<li>Create a <em>main.js</em> file in your "static" directory and add the following code:</li>
+</ol>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-k">function</span>() {
+
+  <span class="pl-en">console</span>.<span class="pl-c1">log</span>( <span class="pl-s"><span class="pl-pds">"</span>ready!<span class="pl-pds">"</span></span> ); <span class="pl-c"><span class="pl-c">//</span> sanity check</span>
+
+  <span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.entry<span class="pl-pds">'</span></span>).<span class="pl-en">on</span>(<span class="pl-s"><span class="pl-pds">'</span>click<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>() {
+    <span class="pl-k">var</span> entry <span class="pl-k">=</span> <span class="pl-c1">this</span>;
+    <span class="pl-k">var</span> post_id <span class="pl-k">=</span> <span class="pl-en">$</span>(<span class="pl-c1">this</span>).<span class="pl-c1">find</span>(<span class="pl-s"><span class="pl-pds">'</span>h2<span class="pl-pds">'</span></span>).<span class="pl-en">attr</span>(<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>);
+    <span class="pl-smi">$</span>.<span class="pl-en">ajax</span>({
+      type<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>,
+      url<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>/delete<span class="pl-pds">'</span></span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span> <span class="pl-k">+</span> post_id,
+      context<span class="pl-k">:</span> entry,
+      <span class="pl-en">success</span><span class="pl-k">:</span><span class="pl-k">function</span>(<span class="pl-smi">result</span>) {
+        <span class="pl-k">if</span>(<span class="pl-smi">result</span>.<span class="pl-c1">status</span> <span class="pl-k">===</span> <span class="pl-c1">1</span>) {
+          <span class="pl-en">$</span>(<span class="pl-c1">this</span>).<span class="pl-c1">remove</span>();
+          <span class="pl-en">console</span>.<span class="pl-c1">log</span>(result);
+        }
+      }
+    });
+  });
+
+});</pre></div>
+<ol>
+<li>Add a new function in <em>app.py</em> to remove the post from the database:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/delete/&lt;post_id&gt;<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">delete_entry</span>(<span class="pl-smi">post_id</span>):
+    <span class="pl-s"><span class="pl-pds">'''</span>Delete post from database<span class="pl-pds">'''</span></span>
+    result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>Error<span class="pl-pds">'</span></span>}
+    <span class="pl-k">try</span>:
+        db <span class="pl-k">=</span> get_db()
+        db.execute(<span class="pl-s"><span class="pl-pds">'</span>delete from entries where id=<span class="pl-pds">'</span></span> <span class="pl-k">+</span> post_id)
+        db.commit()
+        result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">1</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Post Deleted<span class="pl-pds">"</span></span>}
+    <span class="pl-k">except</span> <span class="pl-c1">Exception</span> <span class="pl-k">as</span> e:
+        result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-c1">repr</span>(e)}
+
+    <span class="pl-k">return</span> jsonify(result)</pre></div>
+<ol>
+<li>Finally, add a new test:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">test_delete_message</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+    <span class="pl-s"><span class="pl-pds">"""</span>Ensure the messages are being deleted<span class="pl-pds">"""</span></span>
+    rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/delete/1<span class="pl-pds">'</span></span>)
+    data <span class="pl-k">=</span> json.loads((rv.data).decode(<span class="pl-s"><span class="pl-pds">'</span>utf-8<span class="pl-pds">'</span></span>))
+    <span class="pl-c1">self</span>.assertEqual(data[<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>], <span class="pl-c1">1</span>)</pre></div>
+<p>Make sure to add the following import as well - <code>import json</code></p>
+<p>Manually test this out by running the server and adding two new entries. Click on one of them. It should be removed from the DOM as well as the database. Double check this.</p>
+<p>Then run your automated test suite. It should pass:</p>
+<div class="highlight highlight-source-shell"><pre>$ python app-test.py
+......
+----------------------------------------------------------------------
+Ran 6 tests <span class="pl-k">in</span> 0.132s
+
+OK</pre></div>
+<h2><a id="user-content-deployment" class="anchor" href="#deployment" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deployment</h2>
+<p>With the app in a working-state, let's shift gears and deploy the app to <a href="https://www.heroku.com">Heroku</a>.</p>
+<ol>
+<li>
+<p>To do this, first sign up and then install the <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a>.</p>
+</li>
+<li>
+<p>Next, install a web server called <a href="http://gunicorn.org/">gunicorn</a>:</p>
+</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ pip install gunicorn</pre></div>
+<ol>
+<li>Create a <a href="https://devcenter.heroku.com/articles/procfile">Procfile</a> in the project root:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ touch Procfile</pre></div>
+<p>And add the following code:</p>
+<div class="highlight highlight-source-shell"><pre>web: gunicorn app:app</pre></div>
+<ol>
+<li>Create a <em>requirements.txt</em> file to specify the external dependencies that need to be installed for the app to work:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ pip freeze <span class="pl-k">&gt;</span> requirements.txt</pre></div>
+<ol>
+<li>Create a <em>.gitignore</em> file:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ touch .gitignore</pre></div>
+<p>And include the following files and folders (so they are not included in version control):</p>
+<div class="highlight highlight-source-shell"><pre>env
+<span class="pl-k">*</span>.pyc
+<span class="pl-k">*</span>.DS_Store
+__pycache__</pre></div>
+<ol>
+<li>Add a local Git repo:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ git init
+$ git add -A
+$ git commit -m <span class="pl-s"><span class="pl-pds">"</span>initial<span class="pl-pds">"</span></span></pre></div>
+<ol>
+<li>Deploy to Heroku:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ heroku create
+$ git push heroku master
+$ heroku open</pre></div>
+<h2><a id="user-content-test-again" class="anchor" href="#test-again" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test (again!)</h2>
+<p>Let's test this in the cloud. Run <code>heroku open</code> to open the app in the browser.</p>
+<h2><a id="user-content-bootstrap" class="anchor" href="#bootstrap" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bootstrap</h2>
+<p>Let's update the styles with Bootstrap 3.</p>
+<ol>
+<li>First, remove the <em>style.css</em> stylesheet from both <em>index.html</em> and <em>login.html</em>.Then add this stylesheet to both files:</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css<span class="pl-pds">"</span></span>&gt;</pre></div>
+<p>Now we have full access to all of the Bootstrap helper classes.</p>
+<ol>
+<li>Replace the code in <em>login.html</em> with:</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Flaskr-TDD | Login&lt;/<span class="pl-ent">title</span>&gt;
+  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>container<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">h1</span>&gt;Flaskr&lt;/<span class="pl-ent">h1</span>&gt;
+
+    {% for message in get_flashed_messages() %}
+      &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flash<span class="pl-pds">"</span></span>&gt;{{ message }}&lt;/<span class="pl-ent">div</span>&gt;
+    {% endfor %}
+
+    &lt;<span class="pl-ent">h3</span>&gt;Login&lt;/<span class="pl-ent">h3</span>&gt;
+
+    {% if error %}&lt;<span class="pl-ent">p</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>error<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">strong</span>&gt;Error:&lt;/<span class="pl-ent">strong</span>&gt; {{ error }}{% endif %}&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('login') }}<span class="pl-pds">"</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">"</span>post<span class="pl-pds">"</span></span>&gt;
+      &lt;<span class="pl-ent">dl</span>&gt;
+        &lt;<span class="pl-ent">dt</span>&gt;Username:&lt;/<span class="pl-ent">dt</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;<span class="pl-ent">dt</span>&gt;Password:&lt;/<span class="pl-ent">dt</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;<span class="pl-ent">br</span>&gt;&lt;<span class="pl-ent">br</span>&gt;
+        &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>submit<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>btn btn-default<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>Login<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;<span class="pl-ent">span</span>&gt;Use "admin" for username and password&lt;/<span class="pl-ent">span</span>&gt;
+      &lt;/<span class="pl-ent">dl</span>&gt;
+    &lt;/<span class="pl-ent">form</span>&gt;
+
+  &lt;/<span class="pl-ent">div</span>&gt;
+
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//code.jquery.com/jquery-1.10.2.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>{{url_for('static', filename='main.js') }}<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<ol>
+<li>And replace the code in <em>index.html</em> with:</li>
+</ol>
+<div class="highlight highlight-text-html-basic"><pre>&lt;!DOCTYPE html&gt;
+&lt;<span class="pl-ent">html</span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+  &lt;<span class="pl-ent">title</span>&gt;Flaskr&lt;/<span class="pl-ent">title</span>&gt;
+  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;
+
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>container<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">h1</span>&gt;Flaskr-TDD&lt;/<span class="pl-ent">h1</span>&gt;
+
+    {% if not session.logged_in %}
+      &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('login') }}<span class="pl-pds">"</span></span>&gt;log in&lt;/<span class="pl-ent">a</span>&gt;
+    {% else %}
+      &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('logout') }}<span class="pl-pds">"</span></span>&gt;log out&lt;/<span class="pl-ent">a</span>&gt;
+    {% endif %}
+
+    {% for message in get_flashed_messages() %}
+      &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>flash<span class="pl-pds">"</span></span>&gt;{{ message }}&lt;/<span class="pl-ent">div</span>&gt;
+    {% endfor %}
+
+    {% if session.logged_in %}
+      &lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ url_for('add_entry') }}<span class="pl-pds">"</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">"</span>post<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>add-entry<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">dl</span>&gt;
+          &lt;<span class="pl-ent">dt</span>&gt;Title:&lt;/<span class="pl-ent">dt</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">size</span>=<span class="pl-s"><span class="pl-pds">"</span>30<span class="pl-pds">"</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>title<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+          &lt;<span class="pl-ent">dt</span>&gt;Text:&lt;/<span class="pl-ent">dt</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">textarea</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">rows</span>=<span class="pl-s"><span class="pl-pds">"</span>5<span class="pl-pds">"</span></span> <span class="pl-e">cols</span>=<span class="pl-s"><span class="pl-pds">"</span>40<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">textarea</span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+          &lt;<span class="pl-ent">br</span>&gt;&lt;<span class="pl-ent">br</span>&gt;
+          &lt;<span class="pl-ent">dd</span>&gt;&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>submit<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>btn btn-default<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>Share<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">dd</span>&gt;
+        &lt;/<span class="pl-ent">dl</span>&gt;
+      &lt;/<span class="pl-ent">form</span>&gt;
+    {% endif %}
+
+    &lt;<span class="pl-ent">br</span>&gt;
+
+    &lt;<span class="pl-ent">ul</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>entries<span class="pl-pds">"</span></span>&gt;
+      {% for entry in entries %}
+        &lt;<span class="pl-ent">li</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>entry<span class="pl-pds">"</span></span>&gt;&lt;<span class="pl-ent">h2</span> <span class="pl-e">id</span>=<span class="pl-s">{{</span> <span class="pl-e">entry</span>.<span class="pl-e">id</span> }}&gt;{{ entry.title }}&lt;/<span class="pl-ent">h2</span>&gt;{{ entry.text|safe }}&lt;/<span class="pl-ent">li</span>&gt;
+      {% else %}
+        &lt;<span class="pl-ent">li</span>&gt;&lt;<span class="pl-ent">em</span>&gt;No entries yet. Add some!&lt;/<span class="pl-ent">em</span>&gt;&lt;/<span class="pl-ent">li</span>&gt;
+      {% endfor %}
+    &lt;/<span class="pl-ent">ul</span>&gt;
+
+  &lt;/<span class="pl-ent">div</span>&gt;
+
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//code.jquery.com/jquery-1.10.2.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>{{url_for('static', filename='main.js') }}<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+
+&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+<p>Check out your changes!</p>
+<h2><a id="user-content-sqlalchemy" class="anchor" href="#sqlalchemy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQLAlchemy</h2>
+<p>Let's upgrade to <a href="http://pythonhosted.org/Flask-SQLAlchemy/">Flask-SQLAlchemy</a>, in order to better manage our database.</p>
+<h3><a id="user-content-setup-sqlalchemy" class="anchor" href="#setup-sqlalchemy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setup SQLAlchemy</h3>
+<ol>
+<li>Start by installing Flask-SQLAlchemy:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>$ pip install Flask-SQLAlchemy==2.1</pre></div>
+<ol>
+<li>Create a <em>create_db.py</em> file, then add the following code:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-c"><span class="pl-c">#</span> create_db.py</span>
+
+
+<span class="pl-k">from</span> app <span class="pl-k">import</span> db
+<span class="pl-k">from</span> models <span class="pl-k">import</span> Flaskr
+
+
+<span class="pl-c"><span class="pl-c">#</span> create the database and the db table</span>
+db.create_all()
+
+<span class="pl-c"><span class="pl-c">#</span> commit the changes</span>
+db.session.commit()</pre></div>
+<p>This file will be used to create our new database. Go ahead and delete the old .db (<em>flaskr.db</em>) along with the <em>schema.sql</em> file.</p>
+<ol>
+<li>Next add a <em>models.py</em> file, which will be used to generate the new schema:</li>
+</ol>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">from</span> app <span class="pl-k">import</span> db
+
+
+<span class="pl-k">class</span> <span class="pl-en">Flaskr</span>(<span class="pl-e">db</span>.<span class="pl-e">Model</span>):
+
+    __tablename__ <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>flaskr<span class="pl-pds">"</span></span>
+
+    post_id <span class="pl-k">=</span> db.Column(db.Integer, <span class="pl-v">primary_key</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+    title <span class="pl-k">=</span> db.Column(db.String, <span class="pl-v">nullable</span><span class="pl-k">=</span><span class="pl-c1">False</span>)
+    text <span class="pl-k">=</span> db.Column(db.String, <span class="pl-v">nullable</span><span class="pl-k">=</span><span class="pl-c1">False</span>)
+
+    <span class="pl-k">def</span> <span class="pl-c1">__init__</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>, <span class="pl-smi">title</span>, <span class="pl-smi">text</span>):
+        <span class="pl-c1">self</span>.title <span class="pl-k">=</span> title
+        <span class="pl-c1">self</span>.text <span class="pl-k">=</span> text
+
+    <span class="pl-k">def</span> <span class="pl-c1">__repr__</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;title <span class="pl-c1">{}</span>&gt;<span class="pl-pds">'</span></span>.format(<span class="pl-c1">self</span>.body)</pre></div>
+<h3><a id="user-content-update-apppy" class="anchor" href="#update-apppy" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Update <em>app.py</em></h3>
+<div class="highlight highlight-source-python"><pre><span class="pl-c"><span class="pl-c">#</span> imports</span>
+<span class="pl-k">from</span> flask <span class="pl-k">import</span> Flask, request, session, g, redirect, url_for, \
+     abort, render_template, flash, jsonify
+<span class="pl-k">from</span> flask.ext.sqlalchemy <span class="pl-k">import</span> SQLAlchemy
+<span class="pl-k">import</span> os
+
+<span class="pl-c"><span class="pl-c">#</span> grabs the folder where the script runs</span>
+basedir <span class="pl-k">=</span> os.path.abspath(os.path.dirname(<span class="pl-c1">__file__</span>))
+
+<span class="pl-c"><span class="pl-c">#</span> configuration</span>
+<span class="pl-c1">DATABASE</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>flaskr.db<span class="pl-pds">'</span></span>
+<span class="pl-c1">DEBUG</span> <span class="pl-k">=</span> <span class="pl-c1">True</span>
+<span class="pl-c1">SECRET_KEY</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>my_precious<span class="pl-pds">'</span></span>
+<span class="pl-c1">USERNAME</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>admin<span class="pl-pds">'</span></span>
+<span class="pl-c1">PASSWORD</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>admin<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> defines the full path for the database</span>
+<span class="pl-c1">DATABASE_PATH</span> <span class="pl-k">=</span> os.path.join(basedir, <span class="pl-c1">DATABASE</span>)
+
+<span class="pl-c"><span class="pl-c">#</span> the database uri</span>
+<span class="pl-c1">SQLALCHEMY_DATABASE_URI</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>sqlite:///<span class="pl-pds">'</span></span> <span class="pl-k">+</span> <span class="pl-c1">DATABASE_PATH</span>
+
+<span class="pl-c"><span class="pl-c">#</span> create app</span>
+app <span class="pl-k">=</span> Flask(<span class="pl-c1">__name__</span>)
+app.config.from_object(<span class="pl-c1">__name__</span>)
+db <span class="pl-k">=</span> SQLAlchemy(app)
+
+<span class="pl-k">import</span> models
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">index</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>Searches the database for entries, then displays them.<span class="pl-pds">"""</span></span>
+    entries <span class="pl-k">=</span> db.session.query(models.Flaskr)
+    <span class="pl-k">return</span> render_template(<span class="pl-s"><span class="pl-pds">'</span>index.html<span class="pl-pds">'</span></span>, <span class="pl-v">entries</span><span class="pl-k">=</span>entries)
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/add<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">add_entry</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>Adds new post to the database.<span class="pl-pds">"""</span></span>
+    <span class="pl-k">if</span> <span class="pl-k">not</span> session.get(<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>):
+        abort(<span class="pl-c1">401</span>)
+    new_entry <span class="pl-k">=</span> models.Flaskr(request.form[<span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span>], request.form[<span class="pl-s"><span class="pl-pds">'</span>text<span class="pl-pds">'</span></span>])
+    db.session.add(new_entry)
+    db.session.commit()
+    flash(<span class="pl-s"><span class="pl-pds">'</span>New entry was successfully posted<span class="pl-pds">'</span></span>)
+    <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/login<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">login</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>User login/authentication/session management.<span class="pl-pds">"""</span></span>
+    error <span class="pl-k">=</span> <span class="pl-c1">None</span>
+    <span class="pl-k">if</span> request.method <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>POST<span class="pl-pds">'</span></span>:
+        <span class="pl-k">if</span> request.form[<span class="pl-s"><span class="pl-pds">'</span>username<span class="pl-pds">'</span></span>] <span class="pl-k">!=</span> app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>]:
+            error <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Invalid username<span class="pl-pds">'</span></span>
+        <span class="pl-k">elif</span> request.form[<span class="pl-s"><span class="pl-pds">'</span>password<span class="pl-pds">'</span></span>] <span class="pl-k">!=</span> app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>]:
+            error <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Invalid password<span class="pl-pds">'</span></span>
+        <span class="pl-k">else</span>:
+            session[<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">True</span>
+            flash(<span class="pl-s"><span class="pl-pds">'</span>You were logged in<span class="pl-pds">'</span></span>)
+            <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))
+    <span class="pl-k">return</span> render_template(<span class="pl-s"><span class="pl-pds">'</span>login.html<span class="pl-pds">'</span></span>, <span class="pl-v">error</span><span class="pl-k">=</span>error)
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/logout<span class="pl-pds">'</span></span>)
+<span class="pl-k">def</span> <span class="pl-en">logout</span>():
+    <span class="pl-s"><span class="pl-pds">"""</span>User logout/authentication/session management.<span class="pl-pds">"""</span></span>
+    session.pop(<span class="pl-s"><span class="pl-pds">'</span>logged_in<span class="pl-pds">'</span></span>, <span class="pl-c1">None</span>)
+    flash(<span class="pl-s"><span class="pl-pds">'</span>You were logged out<span class="pl-pds">'</span></span>)
+    <span class="pl-k">return</span> redirect(url_for(<span class="pl-s"><span class="pl-pds">'</span>index<span class="pl-pds">'</span></span>))
+
+
+<span class="pl-en">@app.route</span>(<span class="pl-s"><span class="pl-pds">'</span>/delete/&lt;int:post_id&gt;<span class="pl-pds">'</span></span>, <span class="pl-v">methods</span><span class="pl-k">=</span>[<span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>])
+<span class="pl-k">def</span> <span class="pl-en">delete_entry</span>(<span class="pl-smi">post_id</span>):
+    <span class="pl-s"><span class="pl-pds">"""</span>Deletes post from database<span class="pl-pds">"""</span></span>
+    result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>Error<span class="pl-pds">'</span></span>}
+    <span class="pl-k">try</span>:
+        new_id <span class="pl-k">=</span> post_id
+        db.session.query(models.Flaskr).filter_by(<span class="pl-v">post_id</span><span class="pl-k">=</span>new_id).delete()
+        db.session.commit()
+        result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">1</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Post Deleted<span class="pl-pds">"</span></span>}
+        flash(<span class="pl-s"><span class="pl-pds">'</span>The entry was deleted.<span class="pl-pds">'</span></span>)
+    <span class="pl-k">except</span> <span class="pl-c1">Exception</span> <span class="pl-k">as</span> e:
+        result <span class="pl-k">=</span> {<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>: <span class="pl-c1">0</span>, <span class="pl-s"><span class="pl-pds">'</span>message<span class="pl-pds">'</span></span>: <span class="pl-c1">repr</span>(e)}
+    <span class="pl-k">return</span> jsonify(result)
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    app.run()</pre></div>
+<p>Notice the changes in the config at the top, as well the means in which we're now accessing and manipulating the database in each view function - via SQLAlchemy instead of vanilla SQL.</p>
+<h3><a id="user-content-create-the-db" class="anchor" href="#create-the-db" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create the DB</h3>
+<p>Run the following command to create the initial database:</p>
+<div class="highlight highlight-source-shell"><pre>$ python create_db.py</pre></div>
+<h3><a id="user-content-update-indexhtml" class="anchor" href="#update-indexhtml" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Update <em>index.html</em></h3>
+<p>Update this line:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">&lt;</span>li <span class="pl-k">class</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>entry<span class="pl-pds">"</span></span><span class="pl-k">&gt;&lt;</span>h2 <span class="pl-c1">id</span><span class="pl-k">=</span>{{ entry.post_id }}<span class="pl-k">&gt;</span>{{ entry.title }}<span class="pl-k">&lt;</span><span class="pl-k">/</span>h2<span class="pl-k">&gt;</span>{{ entry.text<span class="pl-k">|</span>safe }}<span class="pl-k">&lt;</span><span class="pl-k">/</span>li<span class="pl-k">&gt;</span></pre></div>
+<p>Pay attention to the <code>post_id</code>. Check the database to ensure that there is a matching field.</p>
+<h3><a id="user-content-tests" class="anchor" href="#tests" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tests</h3>
+<p>Finally, update the tests:</p>
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> unittest
+<span class="pl-k">import</span> os
+<span class="pl-k">from</span> flask <span class="pl-k">import</span> json
+
+<span class="pl-k">from</span> app <span class="pl-k">import</span> app, db
+
+<span class="pl-c1">TEST_DB</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>test.db<span class="pl-pds">'</span></span>
+
+
+<span class="pl-k">class</span> <span class="pl-en">BasicTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">test_index</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>initial test. ensure flask was set up correctly<span class="pl-pds">"""</span></span>
+        tester <span class="pl-k">=</span> app.test_client(<span class="pl-c1">self</span>)
+        response <span class="pl-k">=</span> tester.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>, <span class="pl-v">content_type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>html/text<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertEqual(response.status_code, <span class="pl-c1">200</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_database</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>initial test. ensure that the database exists<span class="pl-pds">"""</span></span>
+        tester <span class="pl-k">=</span> os.path.exists(<span class="pl-s"><span class="pl-pds">"</span>flaskr.db<span class="pl-pds">"</span></span>)
+        <span class="pl-c1">self</span>.assertTrue(tester)
+
+
+<span class="pl-k">class</span> <span class="pl-en">FlaskrTestCase</span>(<span class="pl-e">unittest</span>.<span class="pl-e">TestCase</span>):
+
+    <span class="pl-k">def</span> <span class="pl-en">setUp</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Set up a blank temp database before each test<span class="pl-pds">"""</span></span>
+        basedir <span class="pl-k">=</span> os.path.abspath(os.path.dirname(<span class="pl-c1">__file__</span>))
+        app.config[<span class="pl-s"><span class="pl-pds">'</span>TESTING<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">True</span>
+        app.config[<span class="pl-s"><span class="pl-pds">'</span>SQLALCHEMY_DATABASE_URI<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>sqlite:///<span class="pl-pds">'</span></span> <span class="pl-k">+</span> \
+            os.path.join(basedir, <span class="pl-c1">TEST_DB</span>)
+        <span class="pl-c1">self</span>.app <span class="pl-k">=</span> app.test_client()
+        db.create_all()
+
+    <span class="pl-k">def</span> <span class="pl-en">tearDown</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Destroy blank temp database after each test<span class="pl-pds">"""</span></span>
+        db.drop_all()
+
+    <span class="pl-k">def</span> <span class="pl-en">login</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>, <span class="pl-smi">username</span>, <span class="pl-smi">password</span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Login helper function<span class="pl-pds">"""</span></span>
+        <span class="pl-k">return</span> <span class="pl-c1">self</span>.app.post(<span class="pl-s"><span class="pl-pds">'</span>/login<span class="pl-pds">'</span></span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-c1">dict</span>(
+            <span class="pl-v">username</span><span class="pl-k">=</span>username,
+            <span class="pl-v">password</span><span class="pl-k">=</span>password
+        ), <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+
+    <span class="pl-k">def</span> <span class="pl-en">logout</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Logout helper function<span class="pl-pds">"""</span></span>
+        <span class="pl-k">return</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/logout<span class="pl-pds">'</span></span>, <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+
+    <span class="pl-c"><span class="pl-c">#</span> assert functions</span>
+
+    <span class="pl-k">def</span> <span class="pl-en">test_empty_db</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Ensure database is blank<span class="pl-pds">"""</span></span>
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>No entries yet. Add some!<span class="pl-pds">'</span></span>, rv.data)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_login_logout</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Test login and logout using helper functions<span class="pl-pds">"""</span></span>
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>], app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>])
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>You were logged in<span class="pl-pds">'</span></span>, rv.data)
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.logout()
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>You were logged out<span class="pl-pds">'</span></span>, rv.data)
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>] <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>x<span class="pl-pds">'</span></span>, app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>])
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>Invalid username<span class="pl-pds">'</span></span>, rv.data)
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.login(app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>], app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>] <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>x<span class="pl-pds">'</span></span>)
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>Invalid password<span class="pl-pds">'</span></span>, rv.data)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_messages</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Ensure that user can post messages<span class="pl-pds">"""</span></span>
+        <span class="pl-c1">self</span>.login(app.config[<span class="pl-s"><span class="pl-pds">'</span>USERNAME<span class="pl-pds">'</span></span>], app.config[<span class="pl-s"><span class="pl-pds">'</span>PASSWORD<span class="pl-pds">'</span></span>])
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.post(<span class="pl-s"><span class="pl-pds">'</span>/add<span class="pl-pds">'</span></span>, <span class="pl-v">data</span><span class="pl-k">=</span><span class="pl-c1">dict</span>(
+            <span class="pl-v">title</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>&lt;Hello&gt;<span class="pl-pds">'</span></span>,
+            <span class="pl-v">text</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>&lt;strong&gt;HTML&lt;/strong&gt; allowed here<span class="pl-pds">'</span></span>
+        ), <span class="pl-v">follow_redirects</span><span class="pl-k">=</span><span class="pl-c1">True</span>)
+        <span class="pl-c1">self</span>.assertNotIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>No entries here so far<span class="pl-pds">'</span></span>, rv.data)
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>&amp;lt;Hello&amp;gt;<span class="pl-pds">'</span></span>, rv.data)
+        <span class="pl-c1">self</span>.assertIn(<span class="pl-s"><span class="pl-k">b</span><span class="pl-pds">'</span>&lt;strong&gt;HTML&lt;/strong&gt; allowed here<span class="pl-pds">'</span></span>, rv.data)
+
+    <span class="pl-k">def</span> <span class="pl-en">test_delete_message</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):
+        <span class="pl-s"><span class="pl-pds">"""</span>Ensure the messages are being deleted<span class="pl-pds">"""</span></span>
+        rv <span class="pl-k">=</span> <span class="pl-c1">self</span>.app.get(<span class="pl-s"><span class="pl-pds">'</span>/delete/1<span class="pl-pds">'</span></span>)
+        data <span class="pl-k">=</span> json.loads(rv.data)
+        <span class="pl-c1">self</span>.assertEqual(data[<span class="pl-s"><span class="pl-pds">'</span>status<span class="pl-pds">'</span></span>], <span class="pl-c1">1</span>)
+
+
+<span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>__main__<span class="pl-pds">'</span></span>:
+    unittest.main()</pre></div>
+<p>We've mostly just updated the <code>setUp()</code> and <code>tearDown()</code> methods.</p>
+<p>Run the tests, and then manually test it by running the server and logging in and out, adding new entries, and deleting old entries.</p>
+<p>If all is well, update your requirements (<code>pip freeze &gt; requirements.txt</code>) commit your code, then PUSH the new version to Heroku!</p>
+<h2><a id="user-content-conclusion" class="anchor" href="#conclusion" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<ol>
+<li>Want my code? Grab it <a href="https://github.com/mjhea0/flaskr-tdd">here</a>.</li>
+<li>View my app on <a href="http://flaskr-tdd.herokuapp.com/">Heroku</a>. Cheers!</li>
+<li>Want more Flask fun? Check out <a href="http://www.realpython.com">Real Python</a>.</li>
+<li>Want something else added to this tutorial? Add an issue to the repo. Cheers!</li>
+</ol>
+</article>
+  </div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.09270s from github-fe-bc3c088.cp1-iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8a4318ffea09a0cdb8214b76cf2926b9f6a0ced318a317bed419db19214c690d.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-6d109e75ad8471ba415082726c00c35fb929ceab975082492835f11eca8c07d9.js"></script>
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-c02e574bf00526478bf27916460805b16b0bb0a8bd732d2b14e79e31d5a45228.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
